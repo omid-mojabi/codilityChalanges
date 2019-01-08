@@ -1,0 +1,5 @@
+
+
+Java Program which converts inputs AAABB to A3B2
+
+https://www.careercup.com/question?id=7449675

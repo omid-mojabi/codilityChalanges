@@ -1,0 +1,16 @@
+
+
+Reversing a Number using Mathematical Operations
+Let the input number be n. We initialize the result to zero. When the program finishes execution, result will contain
+the reversed number. We extract the digits of the number starting from the right one by one and add it to the result.
+The extracted digit would be removed from the original number. This task needs to be performed repeatedly until no more
+digits are left in the original number. Since this task is repetitive in nature, we use a while number with the loop
+condition being n > 0, where n is the input number. The last digit of n can is the same as the remainder obtained on
+dividing the number by 10. We use the modulo operator for this purpose. To remove the extracted number from n,
+we divide n by 10. Note that since both n and the number we are dividing with (10) are int values, the resulting value
+will be an int and not a decimal. The final step is to add the extracted digit to the result. This can be done by
+multiplying the result with 10 and adding the extracted digit to it.To illustrate the above steps, let us take an
+example where a particular iteration n is 97 and the result till that point of time is 34. 97 % 10 gives 7 ( rem ).
+Diving n (97) by 10 makes it 9. And finally, adding 7 to the result gives 34*10+7=347.
+
+http://www.javawithus.com/programs/reversing-a-number

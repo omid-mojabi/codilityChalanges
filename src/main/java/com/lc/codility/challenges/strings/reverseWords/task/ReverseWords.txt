@@ -1,0 +1,3 @@
+
+
+Apply reverse to a word without use StringBuilder
